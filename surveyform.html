@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="survey.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form </h1>
+    <!--Create form-->
+    <form id="form">
+        <!--Details-->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name"/>
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email"/>
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="age" id="age" placeholder="Enter your age"/>
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">Which Option  describes you? </label>
+            <select name="role" id="role">
+                <option value="Student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="no">Others</option>
+                </select>
+        </div>
+
+
+         <div class="form-control">
+            <label>Skills known </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp"> C
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp"> C++
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp"> Java
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp"> Python
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp"> Javascript
+            </label>
+
+         </div>
+         <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+         </div>
+
+         <!--submit button-->
+         <button type="submit" value="submit">Submit</button>
+                   
+        
+    </form>
+    
+</body>
+</html>
